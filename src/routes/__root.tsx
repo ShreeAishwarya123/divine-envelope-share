@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "LOVE LETTER FROM GOD" },
+      { name: "description", content: "A web application that shares a PDF \"love letter from God\" with an interactive, visually appealing interface." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "LOVE LETTER FROM GOD" },
+      { property: "og:description", content: "A web application that shares a PDF \"love letter from God\" with an interactive, visually appealing interface." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LOVE LETTER FROM GOD" },
+      { name: "twitter:description", content: "A web application that shares a PDF \"love letter from God\" with an interactive, visually appealing interface." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/79c90003-290a-47d0-a679-f30dd79cda87/id-preview-d684889b--6d489081-9e97-4666-a128-e41b24539e88.lovable.app-1779724306968.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/79c90003-290a-47d0-a679-f30dd79cda87/id-preview-d684889b--6d489081-9e97-4666-a128-e41b24539e88.lovable.app-1779724306968.png" },
     ],
     links: [
       {
