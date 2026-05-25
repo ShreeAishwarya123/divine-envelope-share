@@ -98,7 +98,7 @@ function Index() {
             A Love Letter From God
           </h1>
           <p className="mx-auto mt-3 max-w-md text-base text-rose-700/70 sm:text-lg">
-            Tap the envelope to read what your Father has been longing to tell you.
+            Tap the envelope to read the letter
           </p>
         </div>
 
