@@ -103,32 +103,7 @@ function Index() {
         </div>
 
         {/* Doodles */}
-        <div className="mb-4 flex w-full max-w-md items-center justify-between px-2 md:hidden">
-          <img
-            src={jesusBoy}
-            alt="Jesus hugging a child"
-            className="h-24 w-24 opacity-95"
-            style={{ animation: "sway 6s ease-in-out infinite" }}
-          />
-          <img
-            src={jesusGirl}
-            alt="Jesus hugging a child with flowers"
-            className="h-24 w-24 opacity-95"
-            style={{ animation: "sway 7s ease-in-out infinite reverse" }}
-          />
-        </div>
-        <img
-          src={jesusBoy}
-          alt="Jesus hugging a child"
-          className="pointer-events-none absolute left-4 top-32 hidden h-44 w-44 opacity-90 md:block lg:left-10 lg:h-56 lg:w-56"
-          style={{ animation: "sway 6s ease-in-out infinite" }}
-        />
-        <img
-          src={jesusGirl}
-          alt="Jesus hugging a child with flowers"
-          className="pointer-events-none absolute right-4 top-32 hidden h-44 w-44 opacity-90 md:block lg:right-10 lg:h-56 lg:w-56"
-          style={{ animation: "sway 7s ease-in-out infinite reverse" }}
-        />
+    
 
         {/* Envelope */}
         <div className="relative mt-6 flex h-[360px] w-full max-w-md items-end justify-center">
