@@ -152,8 +152,10 @@ function Index() {
             />
             {/* Wax seal */}
             {!opened && (
-              <div className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2 transform">
-                <div className="text-5xl drop-shadow-lg">💗</div>
+              <div className="pointer-events-none absolute left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 transform">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-16 w-16 drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]">
+                  <path d="M12 21s-7-4.534-9.5-9.04C1.04 8.86 2.86 5 6.5 5c2.04 0 3.5 1.2 4.5 2.5C12 6.2 13.46 5 15.5 5 19.14 5 20.96 8.86 21.5 11.96 19 16.466 12 21 12 21z"/>
+                </svg>
               </div>
             )}
             {/* Top flap - the one that opens */}
