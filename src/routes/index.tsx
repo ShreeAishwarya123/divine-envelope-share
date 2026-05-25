@@ -103,16 +103,30 @@ function Index() {
         </div>
 
         {/* Doodles */}
+        <div className="mb-4 flex w-full max-w-md items-center justify-between px-2 md:hidden">
+          <img
+            src={jesusBoy}
+            alt="Jesus hugging a child"
+            className="h-24 w-24 opacity-95"
+            style={{ animation: "sway 6s ease-in-out infinite" }}
+          />
+          <img
+            src={jesusGirl}
+            alt="Jesus hugging a child with flowers"
+            className="h-24 w-24 opacity-95"
+            style={{ animation: "sway 7s ease-in-out infinite reverse" }}
+          />
+        </div>
         <img
           src={jesusBoy}
           alt="Jesus hugging a child"
-          className="pointer-events-none absolute left-2 top-24 h-28 w-28 opacity-90 sm:h-44 sm:w-44 md:block lg:h-56 lg:w-56"
+          className="pointer-events-none absolute left-4 top-32 hidden h-44 w-44 opacity-90 md:block lg:left-10 lg:h-56 lg:w-56"
           style={{ animation: "sway 6s ease-in-out infinite" }}
         />
         <img
           src={jesusGirl}
           alt="Jesus hugging a child with flowers"
-          className="pointer-events-none absolute right-2 top-24 h-28 w-28 opacity-90 sm:h-44 sm:w-44 md:block lg:h-56 lg:w-56"
+          className="pointer-events-none absolute right-4 top-32 hidden h-44 w-44 opacity-90 md:block lg:right-10 lg:h-56 lg:w-56"
           style={{ animation: "sway 7s ease-in-out infinite reverse" }}
         />
 
@@ -153,8 +167,8 @@ function Index() {
             {/* Wax seal */}
             {!opened && (
               <div className="pointer-events-none absolute left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 transform">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-16 w-16 drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]">
-                  <path d="M12 21s-7-4.534-9.5-9.04C1.04 8.86 2.86 5 6.5 5c2.04 0 3.5 1.2 4.5 2.5C12 6.2 13.46 5 15.5 5 19.14 5 20.96 8.86 21.5 11.96 19 16.466 12 21 12 21z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.6" className="h-14 w-14 drop-shadow-[0_4px_12px_rgba(0,0,0,0.3)]">
+                  <path fill="white" d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
                 </svg>
               </div>
             )}
