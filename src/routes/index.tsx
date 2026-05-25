@@ -98,7 +98,7 @@ function Index() {
             A Love Letter From God
           </h1>
           <p className="mx-auto mt-3 max-w-md text-base text-rose-700/70 sm:text-lg">
-            Tap the envelope to read what your Father has been longing to tell you.
+            Tap the envelope to read the letter
           </p>
         </div>
 
@@ -106,13 +106,13 @@ function Index() {
         <img
           src={jesusBoy}
           alt="Jesus hugging a child"
-          className="pointer-events-none absolute left-2 top-24 hidden h-44 w-44 opacity-90 md:block lg:h-56 lg:w-56"
+          className="pointer-events-none absolute left-2 top-24 h-28 w-28 opacity-90 sm:h-44 sm:w-44 md:block lg:h-56 lg:w-56"
           style={{ animation: "sway 6s ease-in-out infinite" }}
         />
         <img
           src={jesusGirl}
           alt="Jesus hugging a child with flowers"
-          className="pointer-events-none absolute right-2 top-24 hidden h-44 w-44 opacity-90 md:block lg:h-56 lg:w-56"
+          className="pointer-events-none absolute right-2 top-24 h-28 w-28 opacity-90 sm:h-44 sm:w-44 md:block lg:h-56 lg:w-56"
           style={{ animation: "sway 7s ease-in-out infinite reverse" }}
         />
 
@@ -153,9 +153,7 @@ function Index() {
             {/* Wax seal */}
             {!opened && (
               <div className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2 transform">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-amber-300 to-rose-600 text-2xl shadow-lg ring-4 ring-rose-100/40">
-                  ✝
-                </div>
+                <div className="text-5xl drop-shadow-lg">💗</div>
               </div>
             )}
             {/* Top flap - the one that opens */}
@@ -232,12 +230,11 @@ function Index() {
       {/* Feedback */}
       <section className="relative z-10 px-4 pb-16">
         <div className="mx-auto max-w-2xl rounded-3xl bg-gradient-to-br from-rose-500 to-pink-500 p-8 text-center text-white shadow-2xl sm:p-12">
-          <div className="mb-3 text-4xl">🙏</div>
           <h3 className="font-serif text-2xl font-bold sm:text-3xl">
-            How did His letter touch you?
+            How did His letter helped you?
           </h3>
           <p className="mx-auto mt-3 max-w-md text-white/90">
-            We'd love to hear your heart. Share your feedback and stay connected.
+            We'd love to hear your heart.
           </p>
           <a
             href="https://forms.gle/7a9VARjvTUN6j2gF6"
